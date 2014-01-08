@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="it.smc.titanium.npmify.feature"
+      label="NPMify"
+      version="0.4.8.d9"
+      provider-name="SMC Treviso s.r.l.">
+
+   <description url="http://www.example.com/description">
+      
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright 2013 SMC Treviso s.r.l.
+   </copyright>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="com.aptana.core"/>
+      <import plugin="com.appcelerator.titanium.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="com.aptana.index.core"/>
+      <import plugin="com.aptana.parsing"/>
+      <import plugin="com.aptana.xml.core"/>
+      <import plugin="com.aptana.js.core"/>
+      <import plugin="com.appcelerator.titanium.nodejs.core"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="com.aptana.ui"/>
+      <import plugin="com.aptana.projects"/>
+      <import plugin="com.appcelerator.titanium.update.core"/>
+      <import plugin="com.appcelerator.titanium.update.ui"/>
+      <import plugin="com.aptana.jetty.util.epl"/>
+      <import plugin="com.aptana.ui.epl"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="com.aptana.editor.xml"/>
+      <import plugin="com.aptana.editor.js"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="com.aptana.editor.common"/>
+   </requires>
+
+   <plugin
+         id="it.smc.titanium.npmify.core"
+         download-size="0"
+         install-size="0"
+         version="0.4.8.d9"
+         unpack="false"/>
+
+</feature>
