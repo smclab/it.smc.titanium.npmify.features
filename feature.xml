@@ -2,11 +2,11 @@
 <feature
       id="it.smc.titanium.npmify.feature"
       label="NPMify"
-      version="0.4.8.d9"
+      version="0.4.10"
       provider-name="SMC Treviso s.r.l.">
 
    <description url="http://www.example.com/description">
-      
+      Plugin that add support to Titanium Studio for npmified apps.
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -43,7 +43,7 @@
          id="it.smc.titanium.npmify.core"
          download-size="0"
          install-size="0"
-         version="0.4.8.d9"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
